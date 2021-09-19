@@ -1,0 +1,8 @@
+.carousel{
+    margin-top: -20vh;
+    height: 100vh;
+}
+
+.carousel .carousel-item{
+    width: 22vw;
+}
