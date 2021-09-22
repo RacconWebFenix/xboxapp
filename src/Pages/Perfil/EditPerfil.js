@@ -4,8 +4,6 @@ import { Api } from "../../Api/Api";
 export default function EditPerfil(props) {
   const id = parseInt(props.match.params.id);
 
-  console.log(id);
-
   const [perfil, setPerfil] = useState(undefined);
   const [loading, setLoading] = useState(true);
 
@@ -61,6 +59,7 @@ export default function EditPerfil(props) {
               <input
                 id="titulo"
                 type="text"
+                placeholder={perfil.titulo}
                 defaultValue={perfil.titulo}
                 className="validate"
               />
@@ -72,6 +71,7 @@ export default function EditPerfil(props) {
               <input
                 id="imagemUrl"
                 type="text"
+                placeholder={perfil.imagemUrl}
                 defaultValue={perfil.imagemUrl}
                 className="validate"
               />

@@ -7,6 +7,7 @@ import GuardedRoute from "./components/GuardedRoute/GuardedRoute";
 import Perfil from "./Pages/Perfil/Perfil";
 import AddPerfil from "./Pages/Perfil/AddPerfil";
 import EditPerfil from "./Pages/Perfil/EditPerfil";
+import AddUsuarios from "./Pages/Usuarios/AddUsuarios";
 
 // import CarouselContent from "./components/CarouselContent/CarouselContent";
 // import M from "materialize-css"; iniciazao dos componentes no materialize
@@ -19,8 +20,9 @@ function App() {
     <div className="App">
       <Switch>
         <Route path="/login" exact component={Login} />
-        <Route path="/" exact component={Home} />
         <Route path="/perfil" exact component={Perfil} />
+        <Route path="/" exact component={Home} />
+        <Route path="/addUsuario" exact component={AddUsuarios} />
         <Route path="/addPerfil" exact component={AddPerfil} />
         <Route path="/editPerfil/:id" exact component={EditPerfil} />
       </Switch>

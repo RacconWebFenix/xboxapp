@@ -35,7 +35,7 @@ export default function Home() {
             </Link>
             <Link
               className="btn waves-effect green darken-4 white-text darken-text-2"
-              to="/cadastro"
+              to="/addUsuario"
             >
               Cadastro
             </Link>

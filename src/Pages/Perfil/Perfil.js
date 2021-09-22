@@ -47,9 +47,7 @@ export default function Perfil() {
                 </div>
                 <div className="card-action">
                   <Link to="/perfilSeleciuonado">Selecionar</Link>
-              
                   <Link to={`/editPerfil/${p.id}`}>Editar</Link>
-                  {console.log(p.id)}
                   <Link to="/perfilSeleciuonado">Remover</Link>
                 </div>
               </div>

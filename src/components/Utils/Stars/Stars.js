@@ -1,5 +1,5 @@
 import React from "react";
-import "../Stars/stars.css"
+import "./stars.css"
 const STARS = {
   empty: "☆",
   full: "★",

@@ -9,8 +9,10 @@ export const Api = {
   readAlllPerfil: () => Api.baseUrl + "/perfis",
   readOneUrlPerfil: (id) => Api.baseUrl + `/perfis/${parseInt(id)}`,
   //Login
-
   loginUrl: () => Api.baseUrl + "/login",
+  //Usuarios
+  createUrlUsuarios: () => Api.baseUrl + `/user/`,
+  
 
   // Auth Header
 
